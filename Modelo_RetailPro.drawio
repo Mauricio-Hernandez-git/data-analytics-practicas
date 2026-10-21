@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="CKwRxEzK4QyHhabL-Jz-">
+    <mxGraphModel dx="717" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;ventas&lt;br/&gt;------&lt;br/&gt;id_venta (PK)&lt;br/&gt;fecha_venta&lt;br/&gt;id_cliente (FK)&lt;br/&gt;id_producto (FK)&lt;br/&gt;id_territorio (FK)&lt;br/&gt;cantidad&lt;br/&gt;total_venta&lt;br/&gt;canal&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;clientes&lt;br/&gt;--------&lt;br/&gt;id_cliente (PK)&lt;br/&gt;nombre&lt;br/&gt;email&lt;br/&gt;ciudad&lt;br/&gt;segmento&lt;br/&gt;fecha_registro&lt;br/&gt;id_territorio (FK)&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="10" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
