@@ -1,25 +1,21 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="CKwRxEzK4QyHhabL-Jz-">
-    <mxGraphModel dx="860" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="1688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Zxmeb_iNvq5PbO0dvmN3-1" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;VENTAS&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;id_venta — INT — PK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;fecha_venta — DATE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;id_cliente — INT — FK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;id_producto — INT — FK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;id_territorio — INT — FK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;cantidad — INT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;total_venta — DECIMAL(12,2)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-family: Helvetica; white-space: normal;&quot;&gt;canal — VARCHAR(50)&lt;/span&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
           <mxGeometry height="150" width="190" x="320" as="geometry" />
         </mxCell>
-        <mxCell id="d5deUrcTIQVeUjd4zlTi-10" edge="1" parent="1" source="Zxmeb_iNvq5PbO0dvmN3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=0;" target="Zxmeb_iNvq5PbO0dvmN3-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Zxmeb_iNvq5PbO0dvmN3-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;CATEGORIAS&lt;/div&gt;&lt;div&gt;id_categoria — INT — PK&lt;/div&gt;&lt;div&gt;nombre_categoria — VARCHAR(80)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="220" x="60" y="240" as="geometry" />
+          <mxGeometry height="70" width="220" x="60" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;SUBCATEGORIAS&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_subcategoria — INT — PK&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;nombre_subcategoria — VARCHAR(80)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_categoria — INT — FK&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="220" x="60" y="130" as="geometry" />
+        <mxCell id="d5deUrcTIQVeUjd4zlTi-18" edge="1" parent="1" source="Zxmeb_iNvq5PbO0dvmN3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.586;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;exitPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="Zxmeb_iNvq5PbO0dvmN3-2">
+          <mxGeometry relative="1" x="-0.4335" as="geometry">
+            <mxPoint x="59.559999999999945" y="172" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="d5deUrcTIQVeUjd4zlTi-18" edge="1" parent="1" source="Zxmeb_iNvq5PbO0dvmN3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.586;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.42;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;exitPerimeter=0;startArrow=none;startFill=0;entryPerimeter=0;endArrow=none;endFill=0;" target="Zxmeb_iNvq5PbO0dvmN3-3">
-          <mxGeometry relative="1" x="-0.0025" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;PRODUCTOS&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_producto — INT — PK&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;nombre_producto — VARCHAR(120)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_subcategoria — INT — FK&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;precio — DECIMAL(12,2)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;costo — DECIMAL(12,2)&lt;/div&gt;" vertex="1">
+        <mxCell id="Zxmeb_iNvq5PbO0dvmN3-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;PRODUCTOS&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_producto — INT — PK&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;nombre_producto — VARCHAR(120)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;id_categoria — INT — FK&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;precio — DECIMAL(12,2)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;costo — DECIMAL(12,2)&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="220" x="60" y="10" as="geometry" />
         </mxCell>
         <mxCell id="Zxmeb_iNvq5PbO0dvmN3-5" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;TERRITORIOS&lt;/div&gt;&lt;div&gt;id_territorio — INT — PK&lt;/div&gt;&lt;div&gt;region — VARCHAR(80)&lt;/div&gt;&lt;div&gt;pais — VARCHAR(80)&lt;/div&gt;&lt;div&gt;zona — VARCHAR(80)&lt;/div&gt;" vertex="1">
@@ -46,14 +42,8 @@
         <mxCell id="d5deUrcTIQVeUjd4zlTi-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
           <mxGeometry height="30" width="60" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="d5deUrcTIQVeUjd4zlTi-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" y="150" as="geometry" />
-        </mxCell>
-        <mxCell id="d5deUrcTIQVeUjd4zlTi-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
-          <mxGeometry height="30" width="60" y="190" as="geometry" />
-        </mxCell>
         <mxCell id="d5deUrcTIQVeUjd4zlTi-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" y="250" as="geometry" />
+          <mxGeometry height="30" width="60" y="160" as="geometry" />
         </mxCell>
         <mxCell id="d5deUrcTIQVeUjd4zlTi-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
           <mxGeometry height="30" width="60" x="510" y="90" as="geometry" />
