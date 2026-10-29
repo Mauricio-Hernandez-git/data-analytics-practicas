@@ -54,6 +54,6 @@ FROM ventas_mensuales
 ORDER BY anio, mes;
 
 -- Hallazgos:
--- El producto 1 lidera la facturación con $3.600.
--- Los cinco clientes realizaron dos pedidos cada uno.
--- En la base hay ventas de un solo mes, marzo de 2024, con una facturación total de $6.444.
+-- El producto 1 lidera la facturación con $3.600, casi el 56% de los ingresos.
+-- El producto 2 fue el que mas vendio con 13 unidades con $364 de ingresos. Es un posible producto ancla.
+-- Los clientes 1 y 3 representan el 73.5% de los ingresos del mes, podrian considerarse VIP y merecen seguimiento.
