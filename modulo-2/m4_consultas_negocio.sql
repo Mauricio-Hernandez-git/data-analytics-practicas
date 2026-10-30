@@ -27,7 +27,7 @@ ORDER BY SUM(cantidad * precio_unitario) DESC;
 
 SELECT 
 	id_cliente,
-	COUNT(*) AS total_ventas,
+	COUNT(*) AS cantidad_pedidos,
 	SUM(cantidad * precio_unitario) AS total_gasto
 FROM ventas
 GROUP BY id_cliente
@@ -56,4 +56,4 @@ ORDER BY anio, mes;
 -- Hallazgos:
 -- El producto 1 lidera la facturación con $3.600, casi el 56% de los ingresos.
 -- El producto 2 fue el que mas vendio con 13 unidades con $364 de ingresos. Es un posible producto ancla.
--- Los clientes 1 y 3 representan el 73.5% de los ingresos del mes, podrian considerarse VIP y merecen seguimiento.
+-- Los clientes 1 y 3 representan el 51,4% de los ingresos del mes, podrian considerarse VIP y merecen seguimiento.
